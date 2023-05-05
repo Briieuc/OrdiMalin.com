@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <h1>Menu déroulant sticky HTML et CSS</h1>
+    <nav>
+      <ul>
+        <li class="deroulant"><a href="#menu">
+      <img src="menu.svg" alt="">
+      Menu
+    </a>
+          <ul class="sous">
+            <li><a href="#">Cours HTML et CSS</a></li>
+            <li><a href="#">Cours JavaScript</a></li>
+            <li><a href="#">Cours PHP et MySQL</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="main.js"></script>
+    <div class="slide-container">
+      <div class="custom-slider fade">
+        <img class="slide-img" src="https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide1.jpg">
+      </div>
+      <div class="custom-slider fade">
+        <img class="slide-img" src="https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide2.jpg">
+      </div>
+      <div class="custom-slider fade">
+        <img class="slide-img" src="https://www.codeur.com/tuto/wp-content/uploads/2021/12/slide3.jpg">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div class="slide-dot">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <div class="conteneur">
+      <p>Du contenu sous le menu</p>
+    </div>
+  </body>
+</html>

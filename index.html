@@ -3,31 +3,30 @@
 
   <head>
     <link rel="stylesheet" href="style.css">
-    <h1>Menu déroulant sticky HTML et CSS</h1>
     <nav>
       <ul>
-        <li class="deroulant"><p href="#"><img src="menu.jpg" alt=""></p>
+        <li class="deroulant"><a href="#"><img src="menu.jpg" alt=""></a>
           <ul class="sous">
-            <li><a href="#">Cours HTML et CSS</a></li>
-            <li><a href="#">Cours JavaScript</a></li>
-            <li><a href="#">Cours PHP et MySQL</a></li>
+            <li><a href="https://www.amazon.fr/HP-15s-eq2000sf-Portable-Windows-Famille/dp/B0BB37M7WB/ref=sr_1_29?crid=1APZZCD5H2OCL&keywords=pc+portable+gamer&qid=1683336667&sprefix=pc+por%2Caps%2C130&sr=8-29">Ordinateurs Portables</a></li>
+            <li><a href="https://www.amazon.fr/Memory-PC-i9-11900-NVIDIA-GeForce/dp/B09GVTL55R/ref=sr_1_2_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2EJNQX66C1V98&keywords=pc+fixe+gamer&qid=1683336953&sprefix=pc+fixe+gamer%2Caps%2C127&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Ordinateurs Fixes</a></li>
+            <li><a href="https://www.amazon.fr/dp/B0BSHW9XV1?tag=cmpiph-21&linkCode=osi&th=1&psc=1">Ordinateurs Gamer</a></li>
           </ul>
         </li>
       </ul>
     </nav>
+    <h1>OrdiMalin.com</h1>
   </head>
 
   <body>
-    <script type="text/javascript" src="main.js"></script>
     <div class="slide-container">
       <div class="custom-slider fade">
-        <img class="slide-img" src="PcPortable.jpg">
+        <a href="https://www.amazon.fr/HP-15s-eq2000sf-Portable-Windows-Famille/dp/B0BB37M7WB/ref=sr_1_29?crid=1APZZCD5H2OCL&keywords=pc+portable+gamer&qid=1683336667&sprefix=pc+por%2Caps%2C130&sr=8-29"><img class="slide-img" src="PcPortable.jpg"></a>
       </div>
       <div class="custom-slider fade">
-        <img class="slide-img" src="PcFixe.jpg">
+        <a href="https://www.amazon.fr/Memory-PC-i9-11900-NVIDIA-GeForce/dp/B09GVTL55R/ref=sr_1_2_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2EJNQX66C1V98&keywords=pc+fixe+gamer&qid=1683336953&sprefix=pc+fixe+gamer%2Caps%2C127&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img class="slide-img" src="PcFixe.png"></a>
       </div>
-      <div class="custom-slider fade">
-        <img class="slide-img" src="PcMac.jpg">
+        <div class="custom-slider fade">
+        <a href="https://www.amazon.fr/dp/B0BSHW9XV1?tag=cmpiph-21&linkCode=osi&th=1&psc=1"><img class="slide-img" src="PcMac.jpg"></a>
       </div>
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -38,9 +37,16 @@
       <span class="dot" onclick="currentSlide(2)"></span> 
       <span class="dot" onclick="currentSlide(3)"></span> 
     </div>
+    <script type="text/javascript" src="main.js"></script>
 
     <div class="conteneur">
-      <p>Du contenu sous le menu</p>
+      <h2>Nous contacter</h2>
+      <p>Téléphone : 00 00 00 00 00</p>
+      <p>Email : MalinMalin@gmail.com</p>
+      <h2>Qui sommes-nous ?</h2>
+      <p>OrdiMalin.com est créé le 1er avril 1976 dans la maison d'enfance de Steve Malin à Los Altos, puis constituée sous forme de société le 3 janvier 1977. Elle prend diverses facettes coordonnées avec l'évolution du monde informatique qu'elle précède, partant d'un monde sans ordinateur personnel à une société du xxie siècle interconnectée par l'intermédiaire de terminaux fixes et mobiles. Elle est l'un des premiers constructeurs travaillant à la conception de machines moins coûteuses et moins encombrantes face au monopole IBM.
+
+        Parmi ses produits phares, on trouve les ordinateurs personnels Malin II et Malintosh, le baladeur MaliPod, le smartphone MaliPhone et la tablette MaliPad.</p5>
     </div>
   </body>
 </html>
